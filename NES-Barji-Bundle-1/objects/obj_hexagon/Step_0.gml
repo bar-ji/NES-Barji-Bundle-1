@@ -1,8 +1,8 @@
 
 if image_xscale > 0 + scale_decay
 {
-	image_xscale -= scale_decay;
-	image_yscale -= scale_decay;
+	image_xscale -= scale_decay * obj_game.difficulty;
+	image_yscale -= scale_decay * obj_game.difficulty;
 }
 else
 {
@@ -32,6 +32,16 @@ else
 	{
 		rotation_dir = -1;
 	}
+	
+	obj_game.points += 500;
+	
+	if(obj_game.difficulty < 3.0)
+	{
+		obj_game.difficulty += 0.1;
+	}
+	
+	
+	
 }
 
 

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_burg",
-    "path":"sprites/spr_burg/spr_burg.yy",
+    "name":"spr_rock_big",
+    "path":"sprites/spr_rock_big/spr_rock_big.yy",
   },
   "spriteMaskId":null,
   "visible":true,
